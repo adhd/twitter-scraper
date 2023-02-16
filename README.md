@@ -1,22 +1,29 @@
 # twitter-scraper
 A tweet scraper that doesn't use the Twitter API.
 
-
 ## Description
 
 Twitter in 2023 is a treasure trove of unstructured natural language data. Many hobby programmers, researchers, and traders (among others) have written up simple scripts using libraries like `requests` and `bs4` in Python to scrape Twitter data (or alternatively using the suite of Twitter APIs -- an expensive choice better suited towards smaller hobby projects). Oftentimes, the speed at which tweets (and user data) can be scraped presents a barrier to tinkerers.
 
+
+
 ## Getting Started
 
-### Dependencies
+### Install Docker
 
-* Describe any prerequisites, libraries, OS version, etc., needed before installing program.
-* ex. macOS
+Download and install [Docker Community Edition](https://www.docker.com/community-edition). If you're on macOS and have `Homebrew-Cask`, you can use `brew install --cask docker` to install Docker. Alternatively, download and install Docker Toolbox. Note that Docker For macOS is not quite as feature complete as its VirtualBox install counterpart. 
+
+> **NOTE**: Docker Toolbox is legacy. You should to use Docker Community Edition.
 
 ### Installing
 
-* How/where to download your program
-* Any modifications needed to be made to files/folders
+The `requirements.txt` file lists all Python libraries required, and can be installed using:
+
+```bash
+$ pip install -r requirements.txt
+```
+
+As an aside: `pip-compile` is a tool that can streamline combining loosely specified dependencies with a fully frozen environment. 
 
 ### Executing program
 
