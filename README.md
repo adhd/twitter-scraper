@@ -13,7 +13,7 @@ Twitter in 2023 is a treasure trove of unstructured natural language data. Many 
 
 Download and install [Docker Community Edition](https://www.docker.com/community-edition). If you're on macOS and have `Homebrew-Cask`, you can use `brew install --cask docker` to install Docker. Alternatively, download and install Docker Toolbox. Note that Docker For macOS is not quite as feature complete as its VirtualBox install counterpart. 
 
-> **NOTE**: Docker Toolbox is legacy. You should to use Docker Community Edition.
+> **NOTE**: Docker Toolbox is legacy. You should use the Docker Community Edition.
 
 ### Installing
 
@@ -27,7 +27,13 @@ As an aside: `pip-compile` is a tool that can streamline combining loosely speci
 
 ### Executing program
 
-* How to run the program
+Start a Docker cluster. `sudo docker-compose up`. You should see something like the following output:
+
+```
+worker_1  | [2023-02-15 11:32:11,013: INFO/MainProcess] celery@6f03c7d4a1b8 ready.
+```
+
+
 * Step-by-step bullets
 ```
 code blocks for commands
