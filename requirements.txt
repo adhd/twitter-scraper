@@ -1,0 +1,14 @@
+amqp
+beautifulsoup4
+billiard
+bs4
+celery
+certifi
+chardet
+idna
+kombu
+lxml
+pytz
+requests
+urllib3
+vine
