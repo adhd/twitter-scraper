@@ -5,7 +5,20 @@ A tweet scraper that doesn't use the Twitter API.
 
 Twitter in 2023 is a treasure trove of unstructured natural language data. Many hobby programmers, researchers, and traders (among others) have written up simple scripts using libraries like `requests` and `bs4` in Python to scrape Twitter data (or alternatively using the suite of Twitter APIs -- an expensive choice better suited towards smaller hobby projects). Oftentimes, the speed at which tweets (and user data) can be scraped presents a barrier to tinkerers.
 
+Why scrape Twitter? Ingesting data en masse (orders of magnitude larger than what the Twitter API can provide you) can allow you to gain insights about:
 
+* Discussions related to a brand, products, country or city
+* Competitors and their popularity, to gain some kind of competitive edge
+* Emerging trends and attitudes about a topic
+* Sentiments towards a brand or company, to protect investments
+* Discussions related to services and community-based knowledge
+* Consumer habits to develop new products or target underdeveloped niches
+
+Data collected can be used:
+
+* To train machine learning models
+* Conduct academic research
+* Combat fake news by understanding the pattern of how misinformation spreads.
 
 ## Getting Started
 
