@@ -74,7 +74,7 @@ http://127.0.0.1:4444/haproxy?stats
 
 ## Help
 
-Any advise for common problems or issues.
+Any advice for common problems or issues.
 ```
 command to run if program contains helper info
 ```
