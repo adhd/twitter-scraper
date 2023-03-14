@@ -5,6 +5,7 @@ bs4
 celery
 certifi
 chardet
+configparser
 idna
 kombu
 lxml
